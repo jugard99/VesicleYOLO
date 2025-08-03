@@ -1,5 +1,5 @@
 import sys
-from execution.GUVfinal import GUVrun
+from VesicleYOLO.execution import GUVrun
 
 sys.path.append('C:\Users\david\VesicleYOLO')
 guvs = GUVrun(r"C:\Users\david\PycharmProjects\pythonProject2\ultralyticsWork\glucoseimages","best (1).pt")
