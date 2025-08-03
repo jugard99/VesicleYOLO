@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(
    name='VesicleYOLO',
@@ -6,7 +6,7 @@ setup(
    description='A really really really rough way to use YOLO to quantify vesicles',
    author='Julian Gard',
    author_email='julianlgard@gmail.com',
-   packages=['VesicleYOLO'],  #same as name
+   packages=find_packages(),  #same as name
    install_requires=['wheel'], #external packages as dependencies
    scripts=[
             'executions/GUVfinal',
