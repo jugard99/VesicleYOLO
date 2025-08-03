@@ -9,7 +9,7 @@ setup(
    packages=find_packages(),  #same as name
    install_requires=['wheel'], #external packages as dependencies
    scripts=[
-            'executions/GUVfinal.py',
+            'execution/GUVfinal.py',
             'train/mouseTrain.py',
            ]
 )
